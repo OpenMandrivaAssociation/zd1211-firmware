@@ -10,6 +10,7 @@ Source0: http://prdownloads.sourceforge.net/zd1211/%{name}%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
 Url: http://sourceforge.net/projects/zd1211/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
 %description
