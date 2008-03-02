@@ -1,12 +1,12 @@
 %define name zd1211-firmware
-%define version 1.1
-%define release %mkrel 2
+%define version 1.4
+%define release %mkrel 1
 
 Summary: Firmware files for the ZD1211 chip
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://prdownloads.sourceforge.net/zd1211/%{name}%{version}.tar.bz2
+Source0: http://prdownloads.sourceforge.net/zd1211/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
 Url: http://sourceforge.net/projects/zd1211/
