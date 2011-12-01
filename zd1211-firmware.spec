@@ -27,12 +27,12 @@ http://www.deine-taler.de/zd1211/
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/lib/firmware/zd1211
-install -m644 zd1211* $RPM_BUILD_ROOT/lib/firmware/zd1211
+rm -rf %{buildroot}
+install -d %{buildroot}/lib/firmware/zd1211
+install -m644 zd1211* %{buildroot}/lib/firmware/zd1211
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
