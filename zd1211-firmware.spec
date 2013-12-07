@@ -1,6 +1,6 @@
 %define name zd1211-firmware
 %define version 1.4
-%define release 11
+%define release 12
 
 Summary: Firmware files for the ZD1211 chip
 Name: %{name}
