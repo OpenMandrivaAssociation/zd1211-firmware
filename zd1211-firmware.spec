@@ -3,7 +3,7 @@
 Summary: Firmware files for the ZD1211 chip
 Name: %{name}
 Version: 1.5
-Release: 1
+Release: 2
 Source0: http://prdownloads.sourceforge.net/zd1211/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
